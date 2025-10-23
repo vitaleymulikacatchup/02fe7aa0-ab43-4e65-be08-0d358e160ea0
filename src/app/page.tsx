@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -12,9 +12,9 @@ import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCar
 import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Calendar, Coffee, Flame, Globe, Heart, Home, MapPin, MessageCircle, Star, TrendingUp, Users } from "lucide-react";
+import { Calendar, Coffee, Flame, Globe, Heart, MapPin, MessageCircle, Star, TrendingUp, Users } from "lucide-react";
 
-export default function Home() {
+export default function Page() {
   return (
     <ThemeProvider
       defaultButtonVariant="icon-arrow"
@@ -102,7 +102,7 @@ export default function Home() {
             {
               title: "Cozy Atmosphere",
               description: "Relax in our warm, inviting space perfect for work, meetings, or casual conversations",
-              icon: Home
+              icon: Star
             },
             {
               title: "Local Community",
