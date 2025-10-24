@@ -47,7 +47,7 @@ export default function Page() {
             { text: "View Menu", href: "products" },
             { text: "Visit Us", href: "contact" }
           ]}
-          imageSrc="https://images.pexels.com/photos/5198144/pexels-photo-5198144.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+          imageSrc="https://images.pexels.com/photos/1921168/pexels-photo-1921168.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           imageAlt="Modern coffee shop interior with warm lighting and comfortable seating"
           imagePosition="right"
         />
